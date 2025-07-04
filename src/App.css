@@ -44,7 +44,7 @@
 
 }
 
-.Ex4, .Ex5, .Ex6 {
+.Ex4, .Ex5, .Ex6, .Ex7, .Ex8, .Ex9, .Ex10 {
   display: flex;
   flex-direction: column;
   align-items: center;

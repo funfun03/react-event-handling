@@ -8,6 +8,10 @@ import ToggleSwitch from "./components/ToggleSwitch";
 import HoverHighlight from "./components/HoverHighlght";
 import FormSubmissionAlert from "./components/FormSubmissionAlert";
 import KeyPressDisplay from "./components/KeyPressDisplay";
+import DoubleClickMessage from "./components/DoubleClickMessage";
+import DropdownSelection from "./components/DropdownSelection";
+import CheckboxToggle from "./components/CheckboxToggle";
+import SearchFilter from "./components/SearchFilter";
 
 function App() {
   return (
@@ -34,6 +38,22 @@ function App() {
 
       <div className="Ex6">
         <KeyPressDisplay />
+      </div>
+
+      <div className="Ex7">
+        <DoubleClickMessage />
+      </div>
+
+      <div className="Ex8">
+        <DropdownSelection />
+      </div>
+
+      <div className="Ex9">
+        <CheckboxToggle />
+      </div>
+
+      <div className="Ex10">
+        <SearchFilter />
       </div>
     </div>
   );
