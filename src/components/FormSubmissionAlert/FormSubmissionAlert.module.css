@@ -1,0 +1,11 @@
+.container  {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.form  {
+    display: flex;
+    gap: 8px;
+}

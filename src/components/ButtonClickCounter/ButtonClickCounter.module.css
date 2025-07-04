@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.container p {
+    margin: 0;
+}
