@@ -12,6 +12,7 @@ import DoubleClickMessage from "./components/DoubleClickMessage";
 import DropdownSelection from "./components/DropdownSelection";
 import CheckboxToggle from "./components/CheckboxToggle";
 import SearchFilter from "./components/SearchFilter";
+import CalculatorApp from "./components/CalculatorApp/Calculator/Calculator";
 
 function App() {
   return (
@@ -54,6 +55,10 @@ function App() {
 
       <div className="Ex10">
         <SearchFilter />
+      </div>
+
+      <div className="Calculator">
+        <CalculatorApp />
       </div>
     </div>
   );

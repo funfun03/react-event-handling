@@ -1,0 +1,19 @@
+.button {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+}
+
+.operator {
+  background-color: #f57c00;
+}
+
+.clear {
+  background-color: #e53935;
+}

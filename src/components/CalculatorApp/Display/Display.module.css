@@ -1,0 +1,19 @@
+.display {
+  background: #fff;
+  height: 60px;
+  padding: 10px;
+  font-size: 2rem;
+  text-align: right;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+}
+
+.expression {
+  font-size: 1rem;
+  color: #888;
+  text-align: right;
+  margin-bottom: 5px;
+  padding-right: 10px;
+}
