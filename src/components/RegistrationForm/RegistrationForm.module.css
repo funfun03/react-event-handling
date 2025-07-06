@@ -54,11 +54,12 @@
 
 .registerButton {
     width: 100%;
-    padding: 6px;
+    padding: 12px;
     border-radius: 6px;
     border: 1px solid #ccc;
-    background-color: white;
+    background-color: #F97316;
     font-weight: bold;
+    color: white;
 }
 
 form {
