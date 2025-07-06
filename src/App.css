@@ -69,3 +69,9 @@
   background-color: rgb(255, 255, 241);
   max-width: 650px;
 }
+
+.ShoppingCart {
+  padding: 16px;
+  background-color: #F8F8FC;
+  position: relative;
+}

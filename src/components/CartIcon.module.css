@@ -1,0 +1,13 @@
+.cartWrapper {
+    /* margin: 12px 0; */
+    display: flex;
+    justify-self: flex-end;
+}
+
+.cartWrapper button {
+    padding: 12px;
+    margin: 12px 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}

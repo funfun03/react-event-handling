@@ -14,6 +14,9 @@ import CheckboxToggle from "./components/CheckboxToggle";
 import SearchFilter from "./components/SearchFilter";
 import CalculatorApp from "./components/CalculatorApp/Calculator/Calculator";
 import RegistrationForm from "./components/RegistrationForm/RegistrationForm";
+import { CartProvider } from "./context/CartContext";
+import CartIcon from "./components/CartIcon";
+import ProductGrid from "./components/ProductGrid";
 
 function App() {
   return (
@@ -64,6 +67,13 @@ function App() {
 
       <div className="RegistrationForm">
         <RegistrationForm />
+      </div>
+
+      <div className="ShoppingCart">
+        <CartProvider>
+          <CartIcon />
+          <ProductGrid />
+        </CartProvider>
       </div>
     </div>
   );

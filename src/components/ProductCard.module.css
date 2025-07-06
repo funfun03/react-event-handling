@@ -1,0 +1,70 @@
+.header {
+    border: 1px solid black;
+}
+
+.card {
+    /* border: 1px solid black; */
+    background-color: white;
+    padding: 12px;
+}
+
+.productContainer {
+    min-height: 230px;
+}
+
+.productImage {
+    width: 180px;
+}
+
+.productName {
+    margin: 0;
+    font-size: 18px;
+    text-align: left;
+    /* font-weight: 500; */
+}
+
+.card p {
+    color: #256D37;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.controls {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #256D37;
+    border-radius: 6px;
+}
+
+.controls div {
+    padding: 12px 20px;
+    background-color: #cbefd4;
+}
+
+.controlsLeft {
+    border-right: 2px solid #256D37;
+    border-radius: 6px 0 0 6px;  
+}
+
+.controlsRight {
+    border-left: 2px solid #256D37;
+    border-radius: 0 6px 6px 0;  
+}
+
+.controls span {
+    padding: 12px 40px;
+    
+}
+
+.card button {
+    padding: 8px;
+    margin: 8px 0 12px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 2px solid #256D37;
+
+    /* color: ; */
+}
