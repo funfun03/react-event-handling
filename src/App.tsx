@@ -13,6 +13,7 @@ import DropdownSelection from "./components/DropdownSelection";
 import CheckboxToggle from "./components/CheckboxToggle";
 import SearchFilter from "./components/SearchFilter";
 import CalculatorApp from "./components/CalculatorApp/Calculator/Calculator";
+import RegistrationForm from "./components/RegistrationForm/RegistrationForm";
 
 function App() {
   return (
@@ -59,6 +60,10 @@ function App() {
 
       <div className="Calculator">
         <CalculatorApp />
+      </div>
+
+      <div className="RegistrationForm">
+        <RegistrationForm />
       </div>
     </div>
   );

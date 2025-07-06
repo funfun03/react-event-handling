@@ -56,3 +56,16 @@
   background-color: rgb(255, 255, 241);
 
 }
+
+.RegistrationForm {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 12px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 24px;
+  background-color: rgb(255, 255, 241);
+  max-width: 650px;
+}
